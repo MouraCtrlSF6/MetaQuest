@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import "./Product.scss";
 
 function Product({
@@ -8,12 +8,6 @@ function Product({
   onClick
 }) {
   const ref = useRef(null);
-
-  useEffect(() => {
-    if(!ref.current) {
-      return;
-    }
-  }, [])
 
   return (
     <div className="product-component">
