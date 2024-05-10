@@ -1,0 +1,23 @@
+.metaquest-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-image: url("../../../../assets/metaquest.png");
+  background-repeat: no-repeat;
+  background-position: left 15% top;
+  background-size: contain;
+  padding: 3rem;
+  border-bottom: 1px solid lightgray;
+
+  .info-container {
+    width: 50%;
+    text-align: left;
+    font-size: 22px;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+}

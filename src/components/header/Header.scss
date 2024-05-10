@@ -1,0 +1,33 @@
+.header-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+
+  .header-group {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+    .option {
+      display: flex;
+      flex-direction: rows;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: #222222;
+      font-weight: 500;
+      font-size: 18px;
+
+      .meta-logo {
+        font-size: 22px;
+        color: #0081FB;
+      }
+      .cart-logo {
+        font-size: 22px;
+      }
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

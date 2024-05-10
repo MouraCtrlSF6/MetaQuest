@@ -1,0 +1,45 @@
+.footer-component {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.75rem;
+  padding: 3rem;
+
+  .footer-grid-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .footer-grid-column-line:first-child {
+      .option:first-child {
+        color: #222222;
+        font-weight: bold;
+      }
+    }
+    .footer-grid-column-line {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+
+      .option {
+        display: flex;
+        flex-direction: rows;
+        gap: 0.5rem;
+        text-decoration: none;
+        color: #515151;;
+        font-weight: 500;
+        font-size: 18px;
+  
+        .meta-logo {
+          font-size: 22px;
+          color: #0081FB;
+        }
+        .cart-logo {
+          font-size: 22px;
+        }
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

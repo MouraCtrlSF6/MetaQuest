@@ -1,0 +1,18 @@
+.button-component {
+  .btn {
+    background-color: #0081FB;
+    opacity: 0.9;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 1.25rem 1rem;
+    width: 100%;
+  
+    &:hover {
+      background: linear-gradient(to right, #657DFC 20%, #D046EF 30%, #FF55B6 60%, #FB9C33 100%);
+    }
+  }
+}
