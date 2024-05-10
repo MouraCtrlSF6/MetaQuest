@@ -36,3 +36,17 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .technology-component {
+    display: flex;
+    flex-flow: column-reverse;
+    gap: 3vmin;
+    text-align: center;
+    padding-bottom: 3vmin;
+
+    .technology-grid-column:nth-child(2) {
+      text-align: center;
+    }
+  }
+}
