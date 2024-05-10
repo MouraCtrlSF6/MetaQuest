@@ -24,8 +24,8 @@ function Discover() {
             onClick={() => handleButtonClick()}
           ></Button>
         </div>
-      </div>
-      
+      </div>      
+
       <div className="discover-grid-column background"></div>
     </div>
   )

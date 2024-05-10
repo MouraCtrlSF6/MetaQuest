@@ -1,17 +1,20 @@
 .metaquest-component {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  background-image: url("../../../../assets/metaquest.png");
-  background-repeat: no-repeat;
-  background-position: left 15% top;
-  background-size: contain;
+  justify-content: space-between;
   padding: 5vmin;
   border-bottom: 1px solid lightgray;
 
+  .background {
+    background-image: url("../../../../assets/metaquest.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    width: 50%;
+  }
   .info-container {
     width: 50%;
-    text-align: left;
+    text-align: justify;
     font-size: calc(0.625rem + 1.25vmin);
 
     span {

@@ -2,10 +2,15 @@
   display: grid;
   grid-template-columns: 45% 55%;
 
+  // background-image: url("../../../../assets/discover.png");
+  // background-position: right;
+  // background-repeat: no-repeat;
+  // background-size: contain;
+
   .discover-grid-column:first-child {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     text-align: left;
     padding: 8vmin 5vmin;
     
@@ -31,8 +36,9 @@
   }
   .discover-grid-column:nth-child(2) {
     background-image: url("../../../../assets/discover.png");
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
-  } 
+    background-size: contain;
+  }
+
 }
