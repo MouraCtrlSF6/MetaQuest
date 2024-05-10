@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MetaQuest/static/css/main.51872fce.css",
+    "main.css": "/MetaQuest/static/css/main.2f394e1b.css",
     "main.js": "/MetaQuest/static/js/main.a0cafd4d.js",
     "static/js/453.766d2fbe.chunk.js": "/MetaQuest/static/js/453.766d2fbe.chunk.js",
     "static/media/technology.png": "/MetaQuest/static/media/technology.30005d4f2d3222553a54.png",
@@ -24,12 +24,12 @@
     "static/media/Rectangle 53-4.png": "/MetaQuest/static/media/Rectangle 53-4.93274d4e68ec59a44c8c.png",
     "static/media/meta-logo.png": "/MetaQuest/static/media/meta-logo.d01e851f954fcb4be4e7.png",
     "index.html": "/MetaQuest/index.html",
-    "main.51872fce.css.map": "/MetaQuest/static/css/main.51872fce.css.map",
+    "main.2f394e1b.css.map": "/MetaQuest/static/css/main.2f394e1b.css.map",
     "main.a0cafd4d.js.map": "/MetaQuest/static/js/main.a0cafd4d.js.map",
     "453.766d2fbe.chunk.js.map": "/MetaQuest/static/js/453.766d2fbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51872fce.css",
+    "static/css/main.2f394e1b.css",
     "static/js/main.a0cafd4d.js"
   ]
 }
