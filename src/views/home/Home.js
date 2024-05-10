@@ -14,6 +14,9 @@ function Home() {
 
   return (
     <div className="home-component">
+
+      TESTE
+
       <div className="page-container">
 
         <div className="header-container">
