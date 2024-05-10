@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/MetaQuest/static/css/main.07d062ae.css",
+    "main.js": "/MetaQuest/static/js/main.f487bb16.js",
+    "static/js/453.766d2fbe.chunk.js": "/MetaQuest/static/js/453.766d2fbe.chunk.js",
+    "static/media/technology.png": "/MetaQuest/static/media/technology.30005d4f2d3222553a54.png",
+    "static/media/adquira_o_seu-mobile.png": "/MetaQuest/static/media/adquira_o_seu-mobile.c525cc8abd31d8a61fa3.png",
+    "static/media/discover.png": "/MetaQuest/static/media/discover.4092017f779aed78b94f.png",
+    "static/media/adquira_o_seu.png": "/MetaQuest/static/media/adquira_o_seu.377bd51053c4711d2366.png",
+    "static/media/metaquest.png": "/MetaQuest/static/media/metaquest.6756339fabc91d5e54f1.png",
+    "static/media/explore.png": "/MetaQuest/static/media/explore.9c091c64286f93f2fc02.png",
+    "static/media/Rectangle 50.png": "/MetaQuest/static/media/Rectangle 50.c82f078c255e9079b48a.png",
+    "static/media/Rectangle 46.png": "/MetaQuest/static/media/Rectangle 46.8d14c6623f6c6a0e27ac.png",
+    "static/media/Rectangle 49.png": "/MetaQuest/static/media/Rectangle 49.81dacb0c49fb4d637652.png",
+    "static/media/Rectangle 48.png": "/MetaQuest/static/media/Rectangle 48.8651f78b530e7fc90016.png",
+    "static/media/Rectangle 45.png": "/MetaQuest/static/media/Rectangle 45.97b53282a67e66abc101.png",
+    "static/media/Rectangle 47.png": "/MetaQuest/static/media/Rectangle 47.f0c669da29724ffe6373.png",
+    "static/media/Rectangle 44.png": "/MetaQuest/static/media/Rectangle 44.ce41d2db5c6f4828d633.png",
+    "static/media/Rectangle 53-1.png": "/MetaQuest/static/media/Rectangle 53-1.4e67d81c45d24262f355.png",
+    "static/media/Rectangle 53-5.png": "/MetaQuest/static/media/Rectangle 53-5.637dca856f0ff56181af.png",
+    "static/media/Rectangle 53-3.png": "/MetaQuest/static/media/Rectangle 53-3.5be9fd240809ab9682f8.png",
+    "static/media/Rectangle 53.png": "/MetaQuest/static/media/Rectangle 53.d36d30b8d831ab2ed258.png",
+    "static/media/Rectangle 53-2.png": "/MetaQuest/static/media/Rectangle 53-2.51d5ab4804d5910c9c90.png",
+    "static/media/Rectangle 53-4.png": "/MetaQuest/static/media/Rectangle 53-4.93274d4e68ec59a44c8c.png",
+    "static/media/meta-logo.png": "/MetaQuest/static/media/meta-logo.d01e851f954fcb4be4e7.png",
+    "index.html": "/MetaQuest/index.html",
+    "main.07d062ae.css.map": "/MetaQuest/static/css/main.07d062ae.css.map",
+    "main.f487bb16.js.map": "/MetaQuest/static/js/main.f487bb16.js.map",
+    "453.766d2fbe.chunk.js.map": "/MetaQuest/static/js/453.766d2fbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d062ae.css",
+    "static/js/main.f487bb16.js"
+  ]
+}
