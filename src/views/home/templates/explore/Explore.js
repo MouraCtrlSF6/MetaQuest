@@ -23,8 +23,10 @@ function Explore() {
       <div className="explore-grid-row">
         <p>
           <strong>Explore mundos incríveis e viva aventuras épicas</strong>
-          Jogos imersivos e experiências <br/> 
-          inovadoras esperam por você
+          <span>
+            Jogos imersivos e experiências <br/> 
+            inovadoras esperam por você
+          </span>
         </p>
       </div>
       <div className="explore-grid-row" ref={scrollableRowContainerRef}>

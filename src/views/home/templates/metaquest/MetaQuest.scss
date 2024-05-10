@@ -6,13 +6,13 @@
   background-repeat: no-repeat;
   background-position: left 15% top;
   background-size: contain;
-  padding: 3rem;
+  padding: 5vmin;
   border-bottom: 1px solid lightgray;
 
   .info-container {
     width: 50%;
     text-align: left;
-    font-size: 22px;
+    font-size: calc(0.625rem + 1.25vmin);
 
     span {
       display: flex;

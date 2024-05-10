@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1.75rem;
-  padding: 3rem;
+  padding: 5vmin;
 
   .footer-grid-column {
     display: flex;
@@ -19,6 +19,7 @@
       display: flex;
       flex-direction: row;
       gap: 2rem;
+      text-align: left;
 
       .option {
         display: flex;
@@ -27,14 +28,11 @@
         text-decoration: none;
         color: #515151;;
         font-weight: 500;
-        font-size: 18px;
+        font-size: calc(0.625rem + 0.825vmin);
   
         .meta-logo {
-          font-size: 22px;
+          font-size: calc(0.625rem + 1.25vmin);
           color: #0081FB;
-        }
-        .cart-logo {
-          font-size: 22px;
         }
         &:hover {
           opacity: 0.8;

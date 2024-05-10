@@ -7,7 +7,7 @@
   .page-container {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
     align-items: center;
     font-family: "Roboto", sans-serif;
     width: 75%;
@@ -33,7 +33,7 @@
         background-image: url("../../assets/adquira_o_seu.png");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 4rem 0rem;
+        padding: 6.67vmin 0;
 
         .button-wrapper {
           width: 30%;
@@ -51,5 +51,11 @@
   100% {
     opacity: 1;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-component {
+    background-color: purple;
   }
 }

@@ -4,11 +4,11 @@
     opacity: 0.9;
     color: white;
     font-weight: bold;
-    font-size: 30px;
-    border-radius: 50px;
+    font-size: calc(0.625rem + 2.2vmin);
+    border-radius: 3.125rem;
     border: none;
     cursor: pointer;
-    padding: 1.25rem 1rem;
+    padding: 2vmin 1.67vmin;
     width: 100%;
   
     &:hover {

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.67vmin;
 
   .header-group {
     display: flex;
@@ -16,14 +16,14 @@
       text-decoration: none;
       color: #222222;
       font-weight: 500;
-      font-size: 18px;
+      font-size: calc(0.625rem + 0.825vmin);
 
       .meta-logo {
-        font-size: 22px;
+        font-size: calc(0.625rem + 1.25vmin);
         color: #0081FB;
       }
       .cart-logo {
-        font-size: 22px;
+        font-size: calc(0.625rem + 1.25vmin);
       }
       &:hover {
         opacity: 0.8;
