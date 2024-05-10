@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 2vmin;
+  transition: all 500ms ease-in-out;
 
   .header-group {
     display: flex;
@@ -28,6 +29,11 @@
       &:hover {
         opacity: 0.8;
       }
+    }
+  }
+  .header-group:first-child {
+    .option {
+      font-weight: bold;
     }
   }
 }

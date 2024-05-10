@@ -7,6 +7,7 @@
   background-position: right top;
   background-size: contain;
   padding: 5vmin;
+  transition: all 500ms ease-in-out;
 
   .explore-grid-row:first-child {
     width: 46%;
@@ -27,6 +28,7 @@
       }
       span {
         line-height: 3.75vmin;
+        width: 70%;
       }
     }
   }
@@ -79,6 +81,25 @@
       &:hover {
         background: linear-gradient(#0081FB, #1467b5);
         border-radius: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .explore-component {
+    .explore-grid-row:first-child {
+      width: 100%;
+      text-align: center;
+      padding-top: 70%;
+      align-items: center;
+
+      p {
+        align-items: center;
+        
+        span {
+          width: 70%;
+        }
       }
     }
   }

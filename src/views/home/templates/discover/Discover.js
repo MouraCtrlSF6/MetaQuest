@@ -14,7 +14,7 @@ function Discover() {
           <strong>Um novo mundo ao seu alcance</strong>
         </p>
         <p>
-          Tudo o que você precisa sem <br/> 
+          Tudo o que você precisa sem
           esvaziar o seu bolso.
         </p>
         

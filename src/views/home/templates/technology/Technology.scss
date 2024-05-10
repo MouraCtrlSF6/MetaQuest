@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 55% 45%;
   background-color: #1C2B33;
+  transition: all 500ms ease-in-out;
 
   .technology-grid-column {
     display: flex;
@@ -28,7 +29,7 @@
     }
     .price {
       margin-top: auto;
-      font-size: calc(0.625rem + 7.5vmin);
+      font-size: calc(0.625rem + 9.5vmin);
       font-weight: bold;
       background: -webkit-linear-gradient(left, #657DFC 5%, #D046EF 25%, #FF55B6 35%, #FB9C33 60%);
       -webkit-text-fill-color: transparent;
@@ -47,6 +48,10 @@
 
     .technology-grid-column:nth-child(2) {
       text-align: center;
+
+      .price {
+        font-size: calc(0.625rem + 18vmin);
+      }
     }
   }
 }

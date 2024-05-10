@@ -41,3 +41,30 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .footer-component {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10vmin 0;
+
+    .footer-grid-column:not(:first-child) {
+      display: none;
+    }
+    .footer-grid-column:first-child {
+      align-items: center;
+
+      .option {
+        font-size: calc(0.625rem + 3.5vmin);
+  
+        .meta-logo {
+          font-size: calc(0.625rem + 4vmin);
+        }
+      }
+    }
+  }
+
+}

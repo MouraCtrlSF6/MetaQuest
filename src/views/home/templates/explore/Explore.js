@@ -24,7 +24,7 @@ function Explore() {
         <p>
           <strong>Explore mundos incríveis e viva aventuras épicas</strong>
           <span>
-            Jogos imersivos e experiências <br/> 
+            Jogos imersivos e experiências
             inovadoras esperam por você
           </span>
         </p>

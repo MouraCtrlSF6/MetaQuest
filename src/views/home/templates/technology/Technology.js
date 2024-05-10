@@ -14,7 +14,7 @@ function Technology() {
         <p>
           <strong>Tecnologia de outra realidade</strong>
           <span>
-            com um preço dentro da sua <br/> 
+            com um preço dentro da sua
             realidade.
           </span>
         </p>

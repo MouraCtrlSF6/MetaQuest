@@ -1,6 +1,7 @@
 .discover-component {
   display: grid;
   grid-template-columns: 45% 55%;
+  transition: all 500ms ease-in-out;
 
   .discover-grid-column:first-child {
     display: flex;
@@ -44,7 +45,7 @@
     gap: 2rem;
 
     .discover-grid-column:nth-child(2) {
-      height: 64vmin;
+      height: 85vmin;
     }
     .discover-grid-column:first-child {
       padding: 0vmin 5vmin;

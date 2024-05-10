@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   background-color: #f4f4f4;
+  width: 100%;
+  transition: all 500ms ease-in-out;
 
   .page-container {
     display: flex;
@@ -51,5 +53,25 @@
   100% {
     opacity: 1;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .home-component {
+    .page-container {
+      width: 100%;
+
+      .body-container {
+        .acquire-yours-container {
+          background-image: url("../../assets/adquira_o_seu-mobile.png");
+          background-size: cover;
+          padding: 70vmin 0;
+
+          .button-wrapper {
+            width: 85%;
+          }
+        }
+      }
+    }
   }
 }
