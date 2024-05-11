@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import images from "../../../../utils/images";
 import "./Explore.scss";
 
@@ -51,18 +50,6 @@ function Explore() {
             }()
           )}
         </div>
-      </div>
-      <div className="scroll-buttons">
-        <button
-          type="button"
-          className="btn-scroll "
-          onClick={() => handleScrollLeftClick()}
-        ><IoIosArrowBack /></button>
-        <button
-          type="button"
-          className="btn-scroll scroll-right"
-          onClick={() => handleScrollRightClick()}
-        ><IoIosArrowForward /></button>
       </div>
     </div>
   )
