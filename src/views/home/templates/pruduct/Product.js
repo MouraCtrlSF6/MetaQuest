@@ -13,7 +13,7 @@ function Product({
     <div className="product-component">
       <div className="image" ref={ref}>
         <img src={image} alt="Not found"/>
-        <span>${price}</span>
+        <span span>${price}</span>
       </div>
       <div className="description">
         <span>{name}</span>
