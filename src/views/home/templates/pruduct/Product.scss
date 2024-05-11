@@ -11,16 +11,17 @@
       width: 100%;
       position: relative;
       z-index: 0;
-      top: calc(1.5rem + 0.1rem);
+      top: 2.5vmin;
     }
     span {
+      font-size: calc(0.625rem + 0.825vmin);
       position: relative;
       font-weight: bold;
       background-color: white;
-      margin-left: 1rem;
-      padding-right: 1rem;
-      padding-top: 0.25rem;
-      padding-bottom: 0.25rem;
+      margin-left: 1.5vmin;
+      padding-right: 1.5vmin;
+      padding-top: 0.375vmin;
+      padding-bottom: 0.375vmin;
       z-index: 1;
     }
   }
@@ -31,6 +32,7 @@
     align-items: center;
     padding: 1rem;
     border: 1px solid lightgray;
+    font-size: calc(0.625rem + 0.825vmin);
 
     span:first-child {
       text-align: left;
