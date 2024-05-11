@@ -10,7 +10,9 @@ import MetaQuest from "./templates/metaquest/MetaQuest";
 import Technology from "./templates/technology/Technology";
 
 function Home() {  
-  function handleAcquireYoursClick() {}
+  function handleAcquireYoursClick() {
+    window.open("https://www.meta.com/quest/quest-3/");
+  }
 
   return (
     <div className="home-component">

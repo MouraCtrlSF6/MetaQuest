@@ -3,7 +3,7 @@ import "./Discover.scss";
 
 function Discover() {
   function handleButtonClick() {
-    
+    window.open("https://www.meta.com/quest/quest-3/");
   }
 
   return (

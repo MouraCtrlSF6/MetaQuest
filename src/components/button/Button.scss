@@ -1,7 +1,7 @@
 .button-component {
   .btn {
-    background-color: #0081FB;
-    opacity: 0.9;
+    background-image: linear-gradient(to right, #0081FB, #0081FB);
+    transition: background-image 10s ease;
     color: white;
     font-weight: bold;
     font-size: calc(0.625rem + 2.2vmin);
@@ -10,9 +10,33 @@
     cursor: pointer;
     padding: 2vmin 1.67vmin;
     width: 100%;
+    position: relative;
+    z-index: 1;
   
-    &:hover {
-      background: linear-gradient(to right, #657DFC 20%, #D046EF 30%, #FF55B6 60%, #FB9C33 100%);
+    &:hover::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right, #657DFC 20%, #D046EF 30%, #FF55B6 60%, #FB9C33 100%);
+      border-radius: 3.125rem;
+      opacity: 1;
+      animation: opacity-increase 300ms linear;
     }
+  }
+}
+
+@keyframes opacity-increase {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
   }
 }
